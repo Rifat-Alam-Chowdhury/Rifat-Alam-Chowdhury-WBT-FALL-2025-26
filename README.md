@@ -17,8 +17,7 @@
 ## 👤 Student Information
 
 **Name:** Rifat Alam Chowdhury  
-**ID:** 22-48811-3
-**University:** American International University of Bangladesh
+**ID:** 22-48811-3 \***\*University:** American International University of Bangladesh
 
 ---
 
