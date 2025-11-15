@@ -1,0 +1,30 @@
+center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edunav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.imgins {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px;
+  width: 1000px;
+}
+.imgins img {
+  border-radius: 8px;
+}
+.imgins h3 {
+  margin: 0;
+}
+
+mainpart {
+  margin: auto;
+}

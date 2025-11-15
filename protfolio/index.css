@@ -27,8 +27,17 @@ strong {
   color: RED;
 }
 
-div {
-  border: 5px dotted purple;
-  margin: 10px;
-  padding: 10px;
+/* div {
+    border: 5px dotted purple;
+    margin: 10px;
+    padding: 10px;
+    } */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
 }
