@@ -4,8 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet"
+    href="/wbt-fall-2025-26/protfolio/css/contactme.css"">
   </head>
   <body>
-    <h1>this is Contact page</h1>
+    <center>
+      <h2>Contact Me</h2>
+    </center>
+    <nav>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./education.html">Education</a></li>
+      <li><a href="./experience.html">Experience</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <br />
+    </nav>
+    <form method="GET">
+      <br />
+      <h4>First Name :</h4>
+      <input type="text" name="firstname" required />
+      <br />
+      <h4>Last Name :</h4>
+      <input type="text" name="firstname" required />
+      <br />
+      <h4>Email :</h4>
+      <input type="email" required />
+      <br />
+      <h4>Company :</h4>
+      <input type="text" name="company" />
+      <br />
+      <h3>Reason To Contact:</h3>
+      <input type="radio" name="reason" required />Project<br />
+      <input type="radio" name="reason" />Thesis<br />
+      <input type="radio" name="reason" />Job<br />
+      <h3>Services I Provide:</h3>
+      <br />
+      <input type="checkbox" name="services" required />Deep Learning<br />
+      <input type="checkbox" name="services" required />Data Science<br />
+      <input type="checkbox" name="services" required />Natural Language
+      Processing<br />
+      <br />
+      <input type="date" required /><br />
+      <br />
+      <div>
+        <input type="submit" value="Book Appointment" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
   </body>
 </html>
